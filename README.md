@@ -15,8 +15,8 @@ import Test from './test.less?cssModules';
 
 # Systerm Requirements
 
-- *babal* 7+;
-- *node* 10.14+;
+- *babal 7+*;
+- *node* 10.14+*;
 
 # Installation
 
