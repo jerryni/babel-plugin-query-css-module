@@ -1,0 +1,29 @@
+{
+  "name": "babel-plugin-query-css-module",
+  "version": "1.0.1",
+  "description": "query css-modules 'import string' for webpack resourceQuery",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "pub": "rm -rf build && npm run build && npm publish",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json",
+    "LICENSE"
+  ],
+  "keywords": [
+    "babel",
+    "webpack",
+    "resourceQuery",
+    "css-modules"
+  ],
+  "author": "jerryni",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^3.21.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
