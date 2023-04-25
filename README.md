@@ -31,7 +31,7 @@ import Test from './test.less?cssModules';
   "presets": ["babel-plugin-query-css-module"]
 }
 
-// With options:
+// With options
 {
   "presets": [
     [

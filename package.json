@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-query-css-module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "query css-modules 'import string' for webpack resourceQuery",
   "main": "dist/index.js",
   "scripts": {
