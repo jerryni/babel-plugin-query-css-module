@@ -1,12 +1,16 @@
 {
   "name": "babel-plugin-query-css-module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "query css-modules 'import string' for webpack resourceQuery",
   "main": "dist/index.js",
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "pub": "rm -rf build && npm run build && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerryni/babel-plugin-query-css-module.git"
   },
   "files": [
     "dist",
